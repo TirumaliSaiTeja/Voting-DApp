@@ -87,6 +87,7 @@ App = {
       console.warn(error);
     });
   }
+  // added function for casting vote
   castVote: function() {
     var candidateId = $('#candidatesSelect').val();
     App.contracts.Election.deployed().then(function(instance) {
