@@ -33,6 +33,8 @@ App = {
     });
   },
 
+  //updated rendering function
+
   render: function() {
     var electionInstance;
     var loader = $("#loader");
