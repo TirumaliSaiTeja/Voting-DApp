@@ -14,6 +14,7 @@ contract("Election", function(accounts) {
       });
   });
 
+  // checks for candidate info
   it("it initializes the candidates with the correct values", function() {
     return Election.deployed()
       .then(function(instance) {
