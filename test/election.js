@@ -3,6 +3,7 @@ var Election = artifacts.require("./Election.sol");
 contract("Election", function(accounts) {
   var electionInstance;
 
+  // it checks for candidate count
   it("initializes with two candidates", function() {
     return Election.deployed()
       .then(function(instance) {
